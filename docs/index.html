@@ -4,6 +4,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="author" content="Daniel De Laney">
 <meta name="description" content="Make weird video files normal in one click.">
+<meta property="og:title" content="Magicbrake">
+<meta property="og:description" content="Make weird video files normal in one click.">
+<meta property="og:image" content="og.png">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <title>Magicbrake</title>
 <style>
@@ -12,14 +15,13 @@
 	margin: 0;
 }
 body {
-	background: #f9f9f9;
+	background: #171717;
 	font-family: -apple-system, helvetica, arial, sans-serif;
-	color: #333;
+	color: #eee;
 	line-height: 1.2;
 }
 .logo {
 	padding: 1em 2em;
-	font-weight: 800;
 	line-height: 24px;
 	user-select: none;
 }
@@ -30,29 +32,24 @@ body {
 .hero {
 	text-align: center;
 	padding: 8em 2em;
-	background: #fff;
+	background: #2B2B2B;
 }
 h1 {
 	font-size: 2em;
-	max-width: 10em;
+	max-width: 11em;
 	margin: 0 auto;
 	font-weight: 400;
 	line-height: 1;
+	color: #eee;
 }
 h1 strong {
 	font-weight: 800;
 }
 .hero-image {
 	display: block;
-	margin: 3em auto;
-	max-width: 60em;
+	margin: 2em auto 1em auto;
+	max-width: 40em;
 	width: 100%;
-}
-.hero-image.mobile {
-	margin: 6em auto;
-}
-.hero-image.desktop {
-	display: none;
 }
 a {
 	text-decoration: none;
@@ -88,7 +85,7 @@ a:hover {
 	padding: 6em 2em 10em 2em;
 }
 .questions p {
-	color: #666;
+	color: #999;
 }
 h2 {
 	font-size: 1.5em;
@@ -108,19 +105,12 @@ footer {
 	h1 {
 		font-size: 3.5em;
 	}
-	.hero-image.mobile {
-		display: none;
-	}
-	.hero-image.desktop {
-		display: block;
-	}
 }
 </style>
 <div class="logo"><img src="favicon.svg" /> Magicbrake</div>
 <div class="hero">
-	<h1>Make weird video files normal <strong>in one click.</strong></h1>
-	<img src="mb.svg" alt="Magicbrake video converter" class="hero-image desktop" />
-	<img src="mb-mob.svg?v2" alt="Magicbrake video converter" class="hero-image mobile" />
+	<h1>Convert weird video files to MP4 <strong>in one click.</strong></h1>
+	<img src="mb.png" alt="Magicbrake video converter" class="hero-image" />
 	<a href="Magicbrake.dmg" class="download">Download for macOS</a>
 	<div class="fine-print">Completely free. No upgrades or ads.</div>
 </div>
