@@ -8,7 +8,7 @@ Magicbrake is a simple macOS GUI for `handbrakecli`. It’s equivalent to runnin
 
 Grab the app from here:
 
-https://danieldelaney.net/Magicbrake/
+https://danieldelaney.net/magicbrake/
 
 # On the use of AI
 
