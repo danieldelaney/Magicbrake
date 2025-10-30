@@ -21,6 +21,7 @@ body {
 	padding: 1em 2em;
 	font-weight: 800;
 	line-height: 24px;
+	user-select: none;
 }
 .logo img {
 	float: left;
@@ -52,6 +53,9 @@ a {
 	font-weight: bold;
 	color: #0091FF;
 }
+a:hover {
+	text-decoration: underline;
+}
 .download {
 	display: inline-block;
 	background: #62BA46;
@@ -64,6 +68,10 @@ a {
 	background-position: 2em center;
 	font-weight: normal;
 }
+.download:hover {
+	text-decoration: none;
+	background-color: #4E9537;
+}
 .fine-print {
 	font-size: 0.8em;
 	color: #999;
@@ -72,6 +80,9 @@ a {
 	max-width: 50em;
 	margin: 0 auto;
 	padding: 6em 2em 10em 2em;
+}
+.questions p {
+	color: #666;
 }
 h2 {
 	font-size: 1.5em;
