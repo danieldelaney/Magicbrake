@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="author" content="Daniel De Laney">
 <meta name="description" content="Make weird video files normal in one click.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <title>Magicbrake</title>
 <style>
 * {
@@ -17,10 +18,13 @@ body {
 	line-height: 1.2;
 }
 .logo {
-	background: #333;
-	color: white;
 	padding: 1em 2em;
 	font-weight: 800;
+	line-height: 24px;
+}
+.logo img {
+	float: left;
+	margin-right: 0.5em;
 }
 .hero {
 	text-align: center;
@@ -30,7 +34,7 @@ body {
 h1 {
 	font-size: 2em;
 	max-width: 10em;
-	margin: 0 auto 0.5em auto;
+	margin: 0 auto;
 	font-weight: 400;
 	line-height: 1;
 }
@@ -39,18 +43,18 @@ h1 strong {
 }
 .hero-image {
 	display: block;
-	margin: 0 auto;
-	max-width: 30em;
+	margin: 3em auto;
+	max-width: 60em;
 	width: 100%;
 }
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: blue;
+	color: #0091FF;
 }
 .download {
 	display: inline-block;
-	background: blue;
+	background: #62BA46;
 	color: white;
 	padding: 1em 2em 1em 4em;
 	border-radius: 99em;
@@ -62,6 +66,7 @@ a {
 }
 .fine-print {
 	font-size: 0.8em;
+	color: #999;
 }
 .questions {
 	max-width: 50em;
@@ -69,12 +74,14 @@ a {
 	padding: 6em 2em 10em 2em;
 }
 h2 {
-	font-weight: normal;
+	font-size: 1.5em;
 }
 h3 {
-	font-size: 1em;
-	margin-top: 3em;
-	margin-bottom: 0.5em;
+	font-size: 1.25em;
+	margin-top: 2em;
+	margin-bottom: 0.25em;
+	font-weight: normal;
+
 }
 footer {
 	text-align: center;
@@ -86,19 +93,19 @@ footer {
 	}
 }
 </style>
-<div class="logo">Magicbrake</div>
+<div class="logo"><img src="favicon.svg" /> Magicbrake</div>
 <div class="hero">
 	<h1>Make weird video files normal <strong>in one click.</strong></h1>
-	<img src="mb.png" alt="Magicbrake video converter" class="hero-image" />
+	<img src="mb.svg" alt="Magicbrake video converter" class="hero-image" />
 	<a href="Magicbrake.dmg" class="download">Download for macOS</a>
 	<div class="fine-print">Completely free. No upgrades or ads.</div>
 </div>
 <div class="questions">
 	<h2>Tell me more!</h1>
 	<h3>What does it do?</h3>
-	<p>It takes any weird video file and makes it normal—a small, fast, and widely compatible MP4.</p>
+	<p>It takes most weird video formats and turns them into a small, fast, and widely compatible MP4.</p>
 	<h3>How does it work?</h3>
-	<p>Drag the app into your Applications, open it, drag video files onto it, and click the button.</p>
+	<p>Drag the app into your Applications folder, open it, drag video files onto it, and click the button.</p>
 	<h3>Is it free?</h3>
 	<p>Yes!</p>
 	<h3>Is it open source?</h3>
@@ -106,7 +113,7 @@ footer {
 	<h3>Is this just Handbrake?</h3>
 	<p>Yes! It’s a simple user interface for the <tt>handbrakecli</tt> utility that anyone can use.</p>
 	<h3>I have a different question.</h3>
-	<p><a href="mailto:hello@danieldelaney.net">Send me an email.</a></p>
+	<p><a href="mailto:hello@danieldelaney.net">Send me an email.</a> I’d love to hear from you.</p>
 </div>
 <footer>Made by <a href="https://danieldelaney.net">Daniel De Laney</a></footer>
 </html>
