@@ -48,6 +48,12 @@ h1 strong {
 	max-width: 60em;
 	width: 100%;
 }
+.hero-image.mobile {
+	margin: 6em auto;
+}
+.hero-image.desktop {
+	display: none;
+}
 a {
 	text-decoration: none;
 	font-weight: bold;
@@ -102,12 +108,19 @@ footer {
 	h1 {
 		font-size: 3.5em;
 	}
+	.hero-image.mobile {
+		display: none;
+	}
+	.hero-image.desktop {
+		display: block;
+	}
 }
 </style>
 <div class="logo"><img src="favicon.svg" /> Magicbrake</div>
 <div class="hero">
 	<h1>Make weird video files normal <strong>in one click.</strong></h1>
-	<img src="mb.svg" alt="Magicbrake video converter" class="hero-image" />
+	<img src="mb.svg" alt="Magicbrake video converter" class="hero-image desktop" />
+	<img src="mb-mob.svg" alt="Magicbrake video converter" class="hero-image mobile" />
 	<a href="Magicbrake.dmg" class="download">Download for macOS</a>
 	<div class="fine-print">Completely free. No upgrades or ads.</div>
 </div>
